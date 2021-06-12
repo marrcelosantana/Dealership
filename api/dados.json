@@ -1,0 +1,57 @@
+{
+  "carros": [
+    {
+      "id": 1,
+      "nome": "Celta",
+      "marca": "Chevrolet",
+      "ano": 2012
+    },
+    {
+      "id": 2,
+      "nome": "Camaro",
+      "marca": "Chevrolet",
+      "ano": 2018
+    },
+    {
+      "id": 4,
+      "nome": "Onix",
+      "marca": "Chevrolet",
+      "ano": 2019
+    },
+    {
+      "id": 5,
+      "nome": "Hilux",
+      "marca": "Toyota",
+      "ano": 2021
+    },
+    {
+      "nome": "Masserati Y",
+      "marca": "Masseratii",
+      "ano": 2021,
+      "id": 6
+    },
+    {
+      "id": 7,
+      "nome": "Grand-Siena",
+      "marca": "Fiat",
+      "ano": 2014
+    },
+    {
+      "nome": "Uno Mile",
+      "marca": "Fiat",
+      "ano": 2010,
+      "id": 10
+    },
+    {
+      "nome": "Dirlandia",
+      "marca": "Boa viagem",
+      "ano": 1999,
+      "id": 11
+    },
+    {
+      "marca": "asiodj",
+      "ano": 21121,
+      "id": 12
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+<div class="cadastroContainer">
+  <div class="title">
+    <p>Cadastrar Carro:</p>
+  </div>
+
+  <div class="formulary">
+    <form>
+      <p>
+        Nome: <input type="text" name="name" [(ngModel)] = "carro.nome">
+      </p>
+      <p>
+        Marca: <input type="text" name="marca" [(ngModel)] = "carro.marca">
+      </p>
+      <p>
+        Ano: <input type="number" name="ano" [(ngModel)] = "carro.ano">
+      </p>
+
+      <button type="button" (click) = "cadastrarCarros()">Cadastrar</button>
+    </form>
+  </div>
+</div>
+
+<div class="contentContainer">
+  <div class="listContainer">
+    <div class="titleList">
+      <h2>LISTA DE CARROS</h2>
+    </div>
+
+    <div class="tableList">
+      <table>
+        <tr>
+          <th>Id</th>
+          <th>Nome</th>
+          <th>Marca</th>
+          <th>Ano</th>
+        </tr>
+
+        <tr *ngFor = "let carro of cars">
+          <td>{{carro.id}}</td>
+          <td>{{carro.nome}}</td>
+          <td>{{carro.marca}}</td>
+          <td>{{carro.ano}}</td>
+
+          <td><button type="button" (click) = "atualizarCarros(carro.id)">Atualizar</button></td>
+          <td><button type="button" (click) = "removerCarros(carro.id)">Remover</button></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="imageContainer">
+    <img src="../../../assets/images/fast-car.svg" alt="image-car">
+  </div>
+
+</div>

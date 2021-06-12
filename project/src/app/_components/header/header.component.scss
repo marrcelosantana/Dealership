@@ -1,0 +1,20 @@
+.headerContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem 0 2rem;
+  height: 7vh;
+
+  background-color: var(--brisa-blue);
+  border-bottom: 2px solid var(--brisa-orange);
+  color: white;
+
+  font-family: rajdhani, sans-serif;
+  font-weight: bold;
+  font-size: 1.8rem;
+
+  img{
+    width: 40px;
+    height: 40px;
+  }
+}
