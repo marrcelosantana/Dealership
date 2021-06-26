@@ -1,128 +1,139 @@
 {
-  "carros": [
+  "cars": [
     {
       "id": 1,
-      "nome": "Camaro",
-      "marca": "Chevrolet",
-      "ano": 2018
+      "name": "Camaro",
+      "brand": "Chevrolet",
+      "year": 2018
     },
     {
       "id": 2,
-      "nome": "Onix",
-      "marca": "Chevrolet",
-      "ano": 2019
+      "name": "Onix",
+      "brand": "Chevrolet",
+      "year": 2019
     },
     {
       "id": 3,
-      "nome": "Hilux",
-      "marca": "Toyota",
-      "ano": 2021
+      "name": "Hilux",
+      "brand": "Toyota",
+      "year": 2021
     },
     {
       "id": 4,
-      "nome": "Masserati Y",
-      "marca": "Masseratii",
-      "ano": 2021
+      "name": "Masserati Y",
+      "brand": "Masseratii",
+      "year": 2021
     },
     {
       "id": 5,
-      "nome": "Grand-Siena",
-      "marca": "Fiat",
-      "ano": 2014
+      "name": "Grand-Siena",
+      "brand": "Fiat",
+      "year": 2014
     },
     {
-      "nome": "Uno Mile",
-      "marca": "Fiat",
-      "ano": 2010,
+      "name": "Uno Mile",
+      "brand": "Fiat",
+      "year": 2010,
       "id": 6
     },
     {
-      "nome": "Celta",
-      "marca": "Chevrolet",
-      "ano": 2010,
+      "name": "Celta",
+      "brand": "Chevrolet",
+      "year": 2010,
       "id": 7
     },
     {
-      "nome": "Civic",
-      "marca": "Honda",
-      "ano": 2015,
+      "name": "Civic",
+      "brand": "Honda",
+      "year": 2015,
       "id": 8
-    },
-    {
-      "nome": "Corolla",
-      "marca": "Toyota",
-      "ano": 2021,
-      "id": 9
     }
   ],
-
-  "pessoas": [
+  "clients": [
     {
       "id": 1,
-      "nome": "Marcelo Santana",
-      "idade": 22,
-      "cidade": "Fortaleza",
+      "name": "Marcelo Santana",
+      "age": 22,
+      "city": "Fortaleza",
       "uf": "CE"
     },
-
     {
       "id": 2,
-      "nome": "Igor Santana",
-      "idade": 18,
-      "cidade": "São Paulo",
+      "name": "Igor Santana",
+      "age": 18,
+      "city": "São Paulo",
       "uf": "SP"
     },
-
     {
       "id": 3,
-      "nome": "Natasha Romanoff",
-      "idade": 27,
-      "cidade": "Rio de Janeiro",
+      "name": "Natasha Romanoff",
+      "age": 27,
+      "city": "Rio de Janeiro",
       "uf": "RJ"
     },
-
     {
       "id": 4,
-      "nome": "Peter Parker",
-      "idade": 15,
-      "cidade": "Porto Alegre",
+      "name": "Peter Parker",
+      "age": 15,
+      "city": "Porto Alegre",
       "uf": "RS"
     },
-
     {
       "id": 5,
-      "nome": "Antony Stark",
-      "idade": 55,
-      "cidade": "Natal",
+      "name": "Antony Stark",
+      "age": 55,
+      "city": "Natal",
       "uf": "RN"
     }
   ],
-  "filiais": [
+  "brands": [
     {
       "id": 1,
-      "cidade": "São Paulo"
+      "name": "Chevrolet"
     },
     {
       "id": 2,
-      "cidade": "Rio de Janeiro"
+      "name": "Toyota"
     },
     {
       "id": 3,
-      "cidade": "Fortaleza"
+      "name": "Masserati"
     },
     {
       "id": 4,
-      "cidade": "Natal"
+      "name": "Honda"
     },
     {
       "id": 5,
-      "cidade": "Porto Alegre"
+      "name": "Fiat"
+    }
+  ],
+  "branches": [
+    {
+      "id": 1,
+      "city": "São Paulo"
+    },
+    {
+      "id": 2,
+      "city": "Rio de Janeiro"
+    },
+    {
+      "id": 3,
+      "city": "Fortaleza"
+    },
+    {
+      "id": 4,
+      "city": "Natal"
+    },
+    {
+      "id": 5,
+      "city": "Porto Alegre"
     }
   ],
   "users": [
     {
       "username": "marcelo.pvp",
-      "senha": "youlose"
+      "password": "youlose"
     }
   ]
 }

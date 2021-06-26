@@ -19,15 +19,13 @@
   .options{
     font-size: 1.5rem;
     color: var(--stark);
-    ul{
-      list-style: none;
-      display: flex;
-      gap: 3rem;
-      transition: color 0.2ms;
-
-      a:hover{
+    transition: color 0.2ms;
+    a{
+      padding: 1rem;
+      &:hover{
         color: var(--fuchsia);
       }
     }
+
   }
 }

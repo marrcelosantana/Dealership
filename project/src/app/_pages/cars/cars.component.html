@@ -1,3 +1,24 @@
 <div class="container">
-  <p>cars works!</p>
+  <section class="content">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">Nome</th>
+          <th scope="col">Marca</th>
+          <th scope="col">Ano</th>
+          <th scope="col">Editar</th>
+          <th scope="col">Excluir</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor = "let car of cars">
+          <td>{{car.name}}</td>
+          <td>{{car.brand}}</td>
+          <td>{{car.year}}</td>
+          <td><mat-icon class="icon-button" color = "primary" (click) = "openDialogEditCar()">edit</mat-icon></td>
+          <td><mat-icon class="icon-button" color = "warn" (click) = "removerCars(car.id)">delete</mat-icon></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 </div>

@@ -1,4 +1,16 @@
 .container{
   min-height: 92vh;
-  background-color: var(--stark);
+  display: flex;
+  justify-content: center;
+
+  table{
+    margin-top: 2rem;
+    width: 100%;
+    box-shadow: 2px 3px 2px #c4c4c4;
+    font-size: 1.2rem;
+
+    .icon-button{
+      cursor: pointer;
+    }
+  }
 }
