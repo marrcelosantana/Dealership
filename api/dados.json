@@ -2,36 +2,30 @@
   "carros": [
     {
       "id": 1,
-      "nome": "Celta",
-      "marca": "Chevrolet",
-      "ano": 2012
-    },
-    {
-      "id": 2,
       "nome": "Camaro",
       "marca": "Chevrolet",
       "ano": 2018
     },
     {
-      "id": 4,
+      "id": 2,
       "nome": "Onix",
       "marca": "Chevrolet",
       "ano": 2019
     },
     {
-      "id": 5,
+      "id": 3,
       "nome": "Hilux",
       "marca": "Toyota",
       "ano": 2021
     },
     {
+      "id": 4,
       "nome": "Masserati Y",
       "marca": "Masseratii",
-      "ano": 2021,
-      "id": 6
+      "ano": 2021
     },
     {
-      "id": 7,
+      "id": 5,
       "nome": "Grand-Siena",
       "marca": "Fiat",
       "ano": 2014
@@ -40,18 +34,95 @@
       "nome": "Uno Mile",
       "marca": "Fiat",
       "ano": 2010,
-      "id": 10
+      "id": 6
     },
     {
-      "nome": "Dirlandia",
-      "marca": "Boa viagem",
-      "ano": 1999,
-      "id": 11
+      "nome": "Celta",
+      "marca": "Chevrolet",
+      "ano": 2010,
+      "id": 7
     },
     {
-      "marca": "asiodj",
-      "ano": 21121,
-      "id": 12
+      "nome": "Civic",
+      "marca": "Honda",
+      "ano": 2015,
+      "id": 8
+    },
+    {
+      "nome": "Corolla",
+      "marca": "Toyota",
+      "ano": 2021,
+      "id": 9
+    }
+  ],
+
+  "pessoas": [
+    {
+      "id": 1,
+      "nome": "Marcelo Santana",
+      "idade": 22,
+      "cidade": "Fortaleza",
+      "uf": "CE"
+    },
+
+    {
+      "id": 2,
+      "nome": "Igor Santana",
+      "idade": 18,
+      "cidade": "São Paulo",
+      "uf": "SP"
+    },
+
+    {
+      "id": 3,
+      "nome": "Natasha Romanoff",
+      "idade": 27,
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ"
+    },
+
+    {
+      "id": 4,
+      "nome": "Peter Parker",
+      "idade": 15,
+      "cidade": "Porto Alegre",
+      "uf": "RS"
+    },
+
+    {
+      "id": 5,
+      "nome": "Antony Stark",
+      "idade": 55,
+      "cidade": "Natal",
+      "uf": "RN"
+    }
+  ],
+  "filiais": [
+    {
+      "id": 1,
+      "cidade": "São Paulo"
+    },
+    {
+      "id": 2,
+      "cidade": "Rio de Janeiro"
+    },
+    {
+      "id": 3,
+      "cidade": "Fortaleza"
+    },
+    {
+      "id": 4,
+      "cidade": "Natal"
+    },
+    {
+      "id": 5,
+      "cidade": "Porto Alegre"
+    }
+  ],
+  "users": [
+    {
+      "username": "marcelo.pvp",
+      "senha": "youlose"
     }
   ]
 }
