@@ -3,18 +3,31 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 2rem 0 2rem;
-  height: 7vh;
+  height: 8vh;
 
-  background-color: var(--brisa-blue);
-  border-bottom: 2px solid var(--brisa-orange);
-  color: white;
+  background-color: var(--void);
+  border-bottom: 2px solid var(--fuchsia);
 
-  font-family: rajdhani, sans-serif;
   font-weight: bold;
-  font-size: 1.8rem;
 
-  img{
-    width: 40px;
-    height: 40px;
+  .logo{
+    font-family: rajdhani, sans-serif;
+    font-size: 2.5rem;
+    color: var(--fuchsia);
+  }
+
+  .options{
+    font-size: 1.5rem;
+    color: var(--stark);
+    ul{
+      list-style: none;
+      display: flex;
+      gap: 3rem;
+      transition: color 0.2ms;
+
+      a:hover{
+        color: var(--fuchsia);
+      }
+    }
   }
 }
