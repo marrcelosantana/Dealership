@@ -12,9 +12,16 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule}  from '@angular/material/input';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HomeComponent } from './_pages/home/home.component';
+import { ClientsComponent } from './_pages/clients/clients.component';
+import { CarsComponent } from './_pages/cars/cars.component';
 @NgModule({
   declarations: [
     AppComponent,
+    HomeComponent,
+    HeaderComponent,
+    ClientsComponent,
+    CarsComponent
 
   ],
   imports: [
