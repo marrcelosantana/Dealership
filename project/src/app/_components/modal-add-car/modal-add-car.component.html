@@ -4,6 +4,14 @@
   </div>
   <div class="inputs">
     <form class="example-form">
+      <mat-form-field appearance="fill">
+        <mat-label>Dono</mat-label>
+          <mat-select [(ngModel)] = "car.owner" name = "owner">
+            <mat-option *ngFor = "let client of clients" value = {{client.name}}>
+              {{client.name}}
+            </mat-option>
+          </mat-select>
+      </mat-form-field>
       <mat-form-field class="example-full-width" appearance="fill">
         <mat-label>Nome</mat-label>
         <input matInput [(ngModel)] = "car.name" name = "name">

@@ -2,45 +2,52 @@
   "cars": [
     {
       "id": 1,
+      "owner": "Marcelo Santana",
       "name": "Camaro",
       "brand": "Chevrolet",
       "year": 2018
     },
     {
-      "name": "Corolla",
-      "brand": "Toyota",
-      "year": 2018,
+      "owner": "Natasha Romanoff",
+      "name": "Civic",
+      "brand": "Honda",
+      "year": 2021,
       "id": 2
     },
     {
-      "name": "Civic",
-      "brand": "Honda",
+      "owner": "Peter Parker",
+      "name": "Tucson",
+      "brand": "Hyundai",
       "year": 2015,
       "id": 3
     },
     {
-      "name": "Gol",
-      "brand": "Volkswagem",
-      "year": 2010,
+      "owner": "Antony Stark",
+      "name": "Hilux",
+      "brand": "Toyota",
+      "year": 2050,
       "id": 4
     },
     {
-      "name": "Hilux",
-      "brand": "Toyota",
-      "year": 2020,
-      "id": 5
-    },
-    {
-      "name": "Onix",
-      "brand": "Chevrolet",
-      "year": 2018,
+      "owner": "Marcelo Santana",
+      "name": "Model S",
+      "brand": "Tesla",
+      "year": 2021,
       "id": 6
     },
     {
-      "name": "Siena",
-      "brand": "Fiat",
-      "year": 2012,
+      "owner": "Nayara Oliveira",
+      "brand": "Ford",
+      "name": "Fusion",
+      "year": 2019,
       "id": 7
+    },
+    {
+      "owner": "Igor Santana",
+      "brand": "Fiat",
+      "name": "Grand Siena",
+      "year": 2017,
+      "id": 8
     }
   ],
   "clients": [
@@ -78,6 +85,13 @@
       "age": 55,
       "city": "Natal",
       "uf": "RN"
+    },
+    {
+      "id": 6,
+      "name": "Nayara Oliveira",
+      "age": 19,
+      "city": "Carius",
+      "uf": "CE"
     }
   ],
   "brands": [
@@ -124,6 +138,10 @@
     {
       "name": "Tesla",
       "id": 11
+    },
+    {
+      "name": "Ford",
+      "id": 12
     }
   ],
   "branches": [

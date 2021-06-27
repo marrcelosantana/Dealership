@@ -15,8 +15,11 @@
             <th scope="col">Marca</th>
             <th scope="col">Nome</th>
             <th scope="col">Ano</th>
+            <th scope="col">Proprietário</th>
             <th scope="col">Editar</th>
             <th scope="col">Excluir</th>
+
+
           </tr>
         </thead>
         <tbody>
@@ -24,6 +27,7 @@
             <td style = "font-family: rajdhani;">{{car.brand}}</td>
             <td style = "font-weight: bold;">{{car.name}}</td>
             <td>{{car.year}}</td>
+            <td>{{car.owner}}</td>
             <td><mat-icon class="icon-button" color = "primary" (click) = "openDialogEditCar(car)">edit</mat-icon></td>
             <td><mat-icon class="icon-button" color = "warn" (click) = "removeCars(car.id)">delete</mat-icon></td>
           </tr>

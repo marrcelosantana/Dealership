@@ -1,3 +1,5 @@
+import { ClientsService } from './../../_services/clients.service';
+import { ClientModel } from './../../_models/client';
 import { ModalAddBrandComponent } from './../modal-add-brand/modal-add-brand.component';
 import { CarsService } from 'src/app/_services/cars.service';
 import { CarModel } from 'src/app/_models/car';
@@ -13,16 +15,21 @@ import { MatDialog } from '@angular/material/dialog';
 })
 export class ModalAddCarComponent implements OnInit {
 
-  constructor(private brandService: BrandService, private carsService: CarsService, public dialog: MatDialog) { }
+  constructor(private brandService: BrandService, private carsService: CarsService, private clientService: ClientsService ,public dialog: MatDialog) { }
 
   brand: BrandModel = new BrandModel();
   brands: BrandModel[];
 
   car: CarModel = new CarModel();
-  cars: CarModel [];
+  cars: CarModel[];
+
+  client: ClientModel = new ClientModel();
+  clients: ClientModel[];
 
   ngOnInit(): void {
     this.listBrands();
+    this.listClients();
+    this.listCars();
   }
 
   listBrands(){
@@ -30,6 +37,14 @@ export class ModalAddCarComponent implements OnInit {
       this.brands = brand;
     }, err => {
       console.log("Erro ao listar marcas", err);
+    })
+  }
+
+  listClients(){
+    this.clientService.listClients().subscribe(client => {
+      this.clients = client;
+    }, err => {
+      console.log("Erro ao listar clientes", err);
     })
   }
 

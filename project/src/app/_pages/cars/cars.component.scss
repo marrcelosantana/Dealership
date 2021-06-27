@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 1rem;
     .title{
       h1{
         font-family: rajdhani;
@@ -19,6 +20,7 @@
 
   .second-content{
     table{
+      text-align: center;
       width: 100%;
       box-shadow: 2px 3px 2px #c4c4c4;
       font-size: 1.2rem;
@@ -28,5 +30,4 @@
       }
     }
   }
-
 }
