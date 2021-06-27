@@ -4,7 +4,7 @@
 - Api usando Json Server.
 
 ### Home
-s
+
 <img src = "./prints/home.jpg">
 
 ### Carros
