@@ -34,10 +34,6 @@ export class ModalEditCarComponent implements OnInit {
   }
 
   updateCars(id: number){
-    if(this.car.name == null || this.car.brand == null || this.car.year == null){
-      window.alert("Campos vazios, carro não atualizado!!");
-      return;
-    }
     this.carsService.updateCar(id, this.car).subscribe(car => {
       this.car = new CarModel();
     }, err => {

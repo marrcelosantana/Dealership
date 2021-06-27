@@ -1,1 +1,32 @@
-<p>modal-edit-client works!</p>
+<div class="container">
+  <div class="title">
+    <h1>Editar Cliente</h1>
+  </div>
+  <div class="inputs">
+    <form class="example-form">
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Nome</mat-label>
+        <input matInput [(ngModel)] = "client.name" name = "name" required>
+      </mat-form-field>
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Idade</mat-label>
+        <input type="number" matInput [(ngModel)] = "client.age" name = "age" required>
+      </mat-form-field>
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Cidade</mat-label>
+        <input matInput [(ngModel)] = "client.city" name = "city" required>
+      </mat-form-field>
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Estado</mat-label>
+        <input matInput [(ngModel)] = "client.uf" name = "uf" required>
+      </mat-form-field>
+      <div class="button">
+        <button type="button" class="btn btn-success" mat-dialog-close (click) = "updateClients(client.id)">Atualizar</button>
+      </div>
+    </form>
+  </div>
+  <div class="close">
+    <span></span>
+    <button type="button" class="btn btn-danger" mat-dialog-close>Fechar</button>
+  </div>
+</div>

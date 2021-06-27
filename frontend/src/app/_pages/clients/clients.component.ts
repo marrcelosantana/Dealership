@@ -48,8 +48,9 @@ export class ClientsComponent implements OnInit {
     });
   }
 
-  openDialogEditClient() {
+  openDialogEditClient(client: ClientModel) {
     const dialogRef = this.dialog.open(ModalEditClientComponent);
+    dialogRef.componentInstance.client = client;
     dialogRef.afterClosed().subscribe(result => {
       this.listClients();
       console.log(`Dialog result: ${result}`);

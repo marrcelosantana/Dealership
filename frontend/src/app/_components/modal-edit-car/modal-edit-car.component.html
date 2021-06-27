@@ -6,11 +6,11 @@
     <form class="example-form">
       <mat-form-field class="example-full-width" appearance="fill">
         <mat-label>Nome</mat-label>
-        <input matInput [(ngModel)] = "car.name" name = "name">
+        <input matInput [(ngModel)] = "car.name" name = "name" required>
       </mat-form-field>
       <mat-form-field appearance="fill">
         <mat-label>Marca</mat-label>
-        <mat-select [(ngModel)] = "car.brand" name = "brand">
+        <mat-select [(ngModel)] = "car.brand" name = "brand"  required>
           <mat-option *ngFor = "let brand of brands" value = {{brand.name}}>
             {{brand.name}}
           </mat-option>
@@ -18,10 +18,10 @@
       </mat-form-field>
       <mat-form-field class="example-full-width" appearance="fill">
         <mat-label>Ano</mat-label>
-        <input type="number" matInput [(ngModel)] = "car.year" name = "year">
+        <input type="number" matInput [(ngModel)] = "car.year" name = "year"  required>
       </mat-form-field>
       <div class="button">
-        <button type="button" class="btn btn-success" mat-dialog-close (click) = "updateCars(car.id)" >Atualizar</button>
+        <button type="button" class="btn btn-success" mat-dialog-close (click) = "updateCars(car.id)">Atualizar</button>
       </div>
     </form>
   </div>
