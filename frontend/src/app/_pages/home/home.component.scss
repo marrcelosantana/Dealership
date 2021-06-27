@@ -1,3 +1,25 @@
 .container{
   min-height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .instructions{
+    h1{
+      font-family: rajdhani, sans-serif;
+      font-weight: bold;
+      font-size: 2rem;
+      span{
+        color: var(--jewel);
+      }
+    }
+
+  }
+
+  .image-container{
+    img{
+      width: 40vw;
+      height: 40vh;
+    }
+  }
 }

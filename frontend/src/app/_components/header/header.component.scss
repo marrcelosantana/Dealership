@@ -4,26 +4,23 @@
   justify-content: space-between;
   padding: 0 2rem 0 2rem;
   height: 8vh;
-
   background-color: var(--void);
-  border-bottom: 2px solid var(--jewel);
-
   font-weight: bold;
 
   .logo{
     font-family: rajdhani, sans-serif;
     font-size: 2.5rem;
-    color: var(--jewel);
+    color: var(--yellow-omni);
   }
 
   .options{
     font-size: 1.5rem;
-    color: var(--stark);
+    color: white;
     transition: color 0.2ms;
     a{
       padding: 1rem;
       &:hover{
-        color: var(--jewel);
+        color: var(--yellow-omni);
       }
     }
 

@@ -9,6 +9,13 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 1rem;
+
+    #addCar-button{
+      background-color: var(--jewel);
+      width: 10rem;
+      font-weight: bold;
+    }
+
     .title{
       h1{
         font-family: rajdhani;

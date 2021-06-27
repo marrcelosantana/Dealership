@@ -8,18 +8,46 @@
       "year": 2018
     },
     {
-      "owner": "Igor Santana",
+      "owner": "Steve Rogers",
+      "name": "Fusca",
+      "brand": "Volkswagem",
+      "year": 1914,
+      "id": 3
+    },
+    {
+      "owner": "Antony Stark",
+      "name": "Model S",
+      "brand": "Tesla",
+      "year": 2021,
+      "id": 4
+    },
+    {
+      "owner": "Peter Parker",
       "name": "Fusion",
       "brand": "Ford",
       "year": 2017,
-      "id": 2
+      "id": 5
     },
     {
-      "owner": "José Domingos",
-      "name": "Hilux",
-      "brand": "Toyota",
-      "year": 2021,
-      "id": 3
+      "owner": "James Barnes",
+      "name": "i30",
+      "brand": "Hyundai",
+      "year": 2019,
+      "id": 6
+    },
+    {
+      "owner": "May Parker",
+      "name": "Gol",
+      "brand": "Volkswagem",
+      "year": 2000,
+      "id": 7
+    },
+    {
+      "owner": "Steven Strange",
+      "name": "Levante",
+      "brand": "Masserati",
+      "year": 2020,
+      "id": 8
     }
   ],
   "clients": [
@@ -29,41 +57,6 @@
       "age": 22,
       "city": "Fortaleza",
       "uf": "CE"
-    },
-    {
-      "name": "Igor Santana",
-      "age": 21,
-      "city": "Fortaleza",
-      "uf": "CE",
-      "id": 2
-    },
-    {
-      "name": "Michel Santana",
-      "age": 32,
-      "city": "São Paulo",
-      "uf": "SP",
-      "id": 3
-    },
-    {
-      "name": "Nayara Ledo",
-      "age": 19,
-      "city": "Cariús",
-      "uf": "CE",
-      "id": 4
-    },
-    {
-      "name": "Marta Santana",
-      "age": 40,
-      "city": "Rio de Janeiro",
-      "uf": "RJ",
-      "id": 5
-    },
-    {
-      "name": "José Domingos",
-      "age": 45,
-      "city": "Porto Alegre",
-      "uf": "RS",
-      "id": 6
     },
     {
       "name": "Peter Parker",
@@ -78,6 +71,41 @@
       "city": "Natal",
       "uf": "RN",
       "id": 8
+    },
+    {
+      "name": "Natasha Romanoff",
+      "age": 34,
+      "city": "Natal",
+      "uf": "RN",
+      "id": 9
+    },
+    {
+      "name": "Steve Rogers",
+      "age": 101,
+      "city": "Fortaleza",
+      "uf": "CE",
+      "id": 10
+    },
+    {
+      "name": "James Barnes",
+      "age": 100,
+      "city": "São Paulo",
+      "uf": "SP",
+      "id": 11
+    },
+    {
+      "name": "May Parker",
+      "age": 40,
+      "city": "Niterói",
+      "uf": "RJ",
+      "id": 12
+    },
+    {
+      "name": "Steven Strange",
+      "age": 50,
+      "city": "Campinas",
+      "uf": "SP",
+      "id": 13
     }
   ],
   "brands": [
