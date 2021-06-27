@@ -29,6 +29,18 @@
       "brand": "Toyota",
       "year": 2020,
       "id": 5
+    },
+    {
+      "name": "Onix",
+      "brand": "Chevrolet",
+      "year": 2018,
+      "id": 6
+    },
+    {
+      "name": "Siena",
+      "brand": "Fiat",
+      "year": 2012,
+      "id": 7
     }
   ],
   "clients": [
@@ -108,6 +120,10 @@
     {
       "name": "Volkswagem",
       "id": 10
+    },
+    {
+      "name": "Tesla",
+      "id": 11
     }
   ],
   "branches": [

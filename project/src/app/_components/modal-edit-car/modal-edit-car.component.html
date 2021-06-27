@@ -1,1 +1,32 @@
-<p>modal-edit-car works!</p>
+<div class="container">
+  <div class="title">
+    <h1>Editar Veículo</h1>
+  </div>
+  <div class="inputs">
+    <form class="example-form">
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Nome</mat-label>
+        <input matInput [(ngModel)] = "car.name" name = "name">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Marca</mat-label>
+        <mat-select [(ngModel)] = "car.brand" name = "brand">
+          <mat-option *ngFor = "let brand of brands" value = {{brand.name}}>
+            {{brand.name}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Ano</mat-label>
+        <input type="number" matInput [(ngModel)] = "car.year" name = "year">
+      </mat-form-field>
+      <div class="button">
+        <button type="button" class="btn btn-success" mat-dialog-close (click) = "updateCars(car.id)" >Atualizar</button>
+      </div>
+    </form>
+  </div>
+  <div class="close">
+    <span></span>
+    <button type="button" class="btn btn-danger" mat-dialog-close>Fechar</button>
+  </div>
+</div>

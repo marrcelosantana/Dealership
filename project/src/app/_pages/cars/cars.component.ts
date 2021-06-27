@@ -38,9 +38,9 @@ export class CarsComponent implements OnInit {
     })
   }
 
-  openDialogEditCar() {
+  openDialogEditCar(car: CarModel) {
     const dialogRef = this.dialog.open(ModalEditCarComponent);
-
+    dialogRef.componentInstance.car = car;
     dialogRef.afterClosed().subscribe(result => {
       console.log(`Dialog result: ${result}`);
     });

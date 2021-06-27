@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { BrandModel } from 'src/app/_models/brand';
 import { CarModel } from 'src/app/_models/car';
+import { BrandService } from 'src/app/_services/brand.service';
 import { CarsService } from 'src/app/_services/cars.service';
 
 @Component({
@@ -9,27 +11,35 @@ import { CarsService } from 'src/app/_services/cars.service';
 })
 export class ModalEditCarComponent implements OnInit {
 
+  idCar = 0;
+
   car: CarModel = new CarModel();
   cars: CarModel [];
 
-  constructor(private carsService: CarsService) { }
+  brand: BrandModel = new BrandModel();
+  brands: BrandModel[];
+
+  constructor(private carsService: CarsService, private brandService: BrandService) { }
 
   ngOnInit(): void {
-    this.listCars();
+    this.listBrands();
   }
 
-  listCars(){
-    this.carsService.listCars().subscribe(car => {
-      this.cars = car;
+  listBrands(){
+    this.brandService.listBrands().subscribe(brand => {
+      this.brands = brand;
     }, err => {
-      console.log("Erro ao adicionar carro!", err);
+      console.log("Erro ao listar marcas", err);
     })
   }
 
   updateCars(id: number){
+    if(this.car.name == null || this.car.brand == null || this.car.year == null){
+      window.alert("Campos vazios, carro não atualizado!!");
+      return;
+    }
     this.carsService.updateCar(id, this.car).subscribe(car => {
       this.car = new CarModel();
-      this.listCars();
     }, err => {
       console.log("Erro ao editar carro!", err);
     })

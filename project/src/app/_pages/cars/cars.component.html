@@ -24,7 +24,7 @@
             <td style = "font-family: rajdhani;">{{car.brand}}</td>
             <td style = "font-weight: bold;">{{car.name}}</td>
             <td>{{car.year}}</td>
-            <td><mat-icon class="icon-button" color = "primary" (click) = "openDialogEditCar()">edit</mat-icon></td>
+            <td><mat-icon class="icon-button" color = "primary" (click) = "openDialogEditCar(car)">edit</mat-icon></td>
             <td><mat-icon class="icon-button" color = "warn" (click) = "removeCars(car.id)">delete</mat-icon></td>
           </tr>
         </tbody>
