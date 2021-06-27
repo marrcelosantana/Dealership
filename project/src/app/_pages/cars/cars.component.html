@@ -1,24 +1,34 @@
 <div class="container">
-  <section class="content">
-    <table class="table table-striped">
-      <thead>
-        <tr>
-          <th scope="col">Nome</th>
-          <th scope="col">Marca</th>
-          <th scope="col">Ano</th>
-          <th scope="col">Editar</th>
-          <th scope="col">Excluir</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor = "let car of cars">
-          <td>{{car.name}}</td>
-          <td>{{car.brand}}</td>
-          <td>{{car.year}}</td>
-          <td><mat-icon class="icon-button" color = "primary" (click) = "openDialogEditCar()">edit</mat-icon></td>
-          <td><mat-icon class="icon-button" color = "warn" (click) = "removerCars(car.id)">delete</mat-icon></td>
-        </tr>
-      </tbody>
-    </table>
+  <section class="content-container">
+    <div class="first-content">
+      <div class="title">
+        <h1>Lista de Carros</h1>
+      </div>
+      <div class="add-button">
+        <button type="button" class="btn btn-success" (click) = "openDialogAddCar()">Adicionar</button>
+      </div>
+    </div>
+    <div class="second-content">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Marca</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Ano</th>
+            <th scope="col">Editar</th>
+            <th scope="col">Excluir</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor = "let car of cars">
+            <td style = "font-family: rajdhani;">{{car.brand}}</td>
+            <td style = "font-weight: bold;">{{car.name}}</td>
+            <td>{{car.year}}</td>
+            <td><mat-icon class="icon-button" color = "primary" (click) = "openDialogEditCar()">edit</mat-icon></td>
+            <td><mat-icon class="icon-button" color = "warn" (click) = "removeCars(car.id)">delete</mat-icon></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </section>
 </div>

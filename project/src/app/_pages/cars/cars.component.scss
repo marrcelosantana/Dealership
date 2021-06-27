@@ -3,14 +3,30 @@
   display: flex;
   justify-content: center;
 
-  table{
-    margin-top: 2rem;
-    width: 100%;
-    box-shadow: 2px 3px 2px #c4c4c4;
-    font-size: 1.2rem;
-
-    .icon-button{
-      cursor: pointer;
+  .first-content{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .title{
+      h1{
+        font-family: rajdhani;
+        font-weight: bold;
+        font-size: 2rem;
+      }
     }
   }
+
+  .second-content{
+    table{
+      width: 100%;
+      box-shadow: 2px 3px 2px #c4c4c4;
+      font-size: 1.2rem;
+
+      .icon-button{
+        cursor: pointer;
+      }
+    }
+  }
+
 }

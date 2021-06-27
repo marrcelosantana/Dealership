@@ -1,3 +1,4 @@
+import { ModalAddCarComponent } from './../../_components/modal-add-car/modal-add-car.component';
 import { ModalEditCarComponent } from './../../_components/modal-edit-car/modal-edit-car.component';
 import { CarsService } from './../../_services/cars.service';
 import { CarModel } from './../../_models/car';
@@ -28,7 +29,7 @@ export class CarsComponent implements OnInit {
     })
   }
 
-  removerCars(id: number){
+  removeCars(id: number){
     this.carsService.removeCar(id).subscribe(car => {
       this.car = new CarModel();
       this.listCars();
@@ -39,6 +40,14 @@ export class CarsComponent implements OnInit {
 
   openDialogEditCar() {
     const dialogRef = this.dialog.open(ModalEditCarComponent);
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
+    });
+  }
+
+  openDialogAddCar() {
+    const dialogRef = this.dialog.open(ModalAddCarComponent);
 
     dialogRef.afterClosed().subscribe(result => {
       console.log(`Dialog result: ${result}`);

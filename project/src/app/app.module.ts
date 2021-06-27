@@ -18,6 +18,9 @@ import {MatTableModule} from '@angular/material/table';
 import {MatListModule} from '@angular/material/list';
 import { ModalEditCarComponent } from './_components/modal-edit-car/modal-edit-car.component';
 import {MatDialogModule} from '@angular/material/dialog';
+import { ModalAddCarComponent } from './_components/modal-add-car/modal-add-car.component';
+import {MatSelectModule} from '@angular/material/select';
+import { ModalAddBrandComponent } from './_components/modal-add-brand/modal-add-brand.component';
 
 
 @NgModule({
@@ -27,7 +30,9 @@ import {MatDialogModule} from '@angular/material/dialog';
     HeaderComponent,
     ClientsComponent,
     CarsComponent,
-    ModalEditCarComponent
+    ModalEditCarComponent,
+    ModalAddCarComponent,
+    ModalAddBrandComponent
 
   ],
   imports: [
@@ -43,7 +48,8 @@ import {MatDialogModule} from '@angular/material/dialog';
     MatTableModule,
     MatListModule,
     MatFormFieldModule,
-    MatDialogModule
+    MatDialogModule,
+    MatSelectModule
 
   ],
   providers: [HttpClientModule],

@@ -7,46 +7,28 @@
       "year": 2018
     },
     {
-      "id": 2,
-      "name": "Onix",
-      "brand": "Chevrolet",
-      "year": 2019
-    },
-    {
-      "id": 3,
-      "name": "Hilux",
+      "name": "Corolla",
       "brand": "Toyota",
-      "year": 2021
-    },
-    {
-      "id": 4,
-      "name": "Masserati Y",
-      "brand": "Masseratii",
-      "year": 2021
-    },
-    {
-      "id": 5,
-      "name": "Grand-Siena",
-      "brand": "Fiat",
-      "year": 2014
-    },
-    {
-      "name": "Uno Mile",
-      "brand": "Fiat",
-      "year": 2010,
-      "id": 6
-    },
-    {
-      "name": "Celta",
-      "brand": "Chevrolet",
-      "year": 2010,
-      "id": 7
+      "year": 2018,
+      "id": 2
     },
     {
       "name": "Civic",
       "brand": "Honda",
       "year": 2015,
-      "id": 8
+      "id": 3
+    },
+    {
+      "name": "Gol",
+      "brand": "Volkswagem",
+      "year": 2010,
+      "id": 4
+    },
+    {
+      "name": "Hilux",
+      "brand": "Toyota",
+      "year": 2020,
+      "id": 5
     }
   ],
   "clients": [
@@ -106,6 +88,26 @@
     {
       "id": 5,
       "name": "Fiat"
+    },
+    {
+      "name": "Ferrari",
+      "id": 6
+    },
+    {
+      "name": "Hyundai",
+      "id": 7
+    },
+    {
+      "name": "Citroen",
+      "id": 8
+    },
+    {
+      "name": "Audi",
+      "id": 9
+    },
+    {
+      "name": "Volkswagem",
+      "id": 10
     }
   ],
   "branches": [
