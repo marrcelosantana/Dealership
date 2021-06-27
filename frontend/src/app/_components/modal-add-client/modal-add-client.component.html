@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="title">
+    <h1>Adicionar Cliente</h1>
+  </div>
+  <div class="inputs">
+    <form class="example-form">
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Nome</mat-label>
+        <input matInput [(ngModel)] = "client.name" name = "name">
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Idade</mat-label>
+        <input type="number" matInput [(ngModel)] = "client.age" name = "age">
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Cidade</mat-label>
+        <input matInput [(ngModel)] = "client.city" name = "cidade">
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Estado <span style="font-size: 10px;">(Apenas as 2 letras)</span></mat-label>
+        <input matInput [(ngModel)] = "client.uf" name = "estado">
+      </mat-form-field>
+
+      <div class="button">
+        <button type="button" class="btn btn-success" (click) = "addClient()" mat-dialog-close>Adicionar</button>
+      </div>
+    </form>
+    <div class="close">
+      <span></span>
+      <button type="button" class="btn btn-danger" mat-dialog-close>Fechar</button>
+    </div>
+  </div>
+</div>

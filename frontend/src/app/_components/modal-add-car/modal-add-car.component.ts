@@ -61,6 +61,7 @@ export class ModalAddCarComponent implements OnInit {
       window.alert("Campos não preenchidos, carro não adicionado!!")
       return;
     }
+
     this.carsService.registerCars(this.car).subscribe((res) => {
       this.car = new CarModel();
       this.listCars();

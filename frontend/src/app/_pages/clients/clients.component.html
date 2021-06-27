@@ -1,3 +1,25 @@
 <div class="container">
-  <p>clients works!</p>
+  <div class="button">
+    <button type="button" class="btn btn-secondary" id="addClient-button" (click) = "openDialogAddClient()">
+      Adicionar Cliente
+    </button>
+  </div>
+  <div class="cards">
+    <div class="cards-div" *ngFor = "let client of clients">
+      <mat-card class="card">
+        <mat-card-title class="card-title">{{client.name}}</mat-card-title>
+        <mat-card-content class="-card-content">
+          <ul>
+            <li><span>Idade:</span>{{client.age}}</li>
+            <li><span>Cidade:</span>{{client.city}}</li>
+            <li><span>UF:</span>{{client.uf}}</li>
+          </ul>
+        </mat-card-content>
+        <mat-card-footer class="card-footer">
+          <mat-icon class="icon-button" style="color: var(--brisa-blue)" (click) = "openDialogEditClient()">edit</mat-icon>
+          <mat-icon class="icon-button" color="warn" (click) = "removeClient(client.id)">delete</mat-icon>
+        </mat-card-footer>
+      </mat-card>
+    </div>
+  </div>
 </div>

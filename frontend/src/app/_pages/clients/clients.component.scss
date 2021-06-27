@@ -1,3 +1,47 @@
 .container{
   min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .button{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    button{
+      background-color: var(--jewel);
+      font-weight: bold;
+    }
+  }
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 1rem;
+    gap: 1rem;
+
+    .card{
+      background-color: var(--white-ice);
+      .card-title{
+        font-family: rajdhani;
+        font-weight: bold;
+        color: var(--void);
+      }
+      ul{
+        list-style: none;
+      }
+      span{
+        font-weight: bold;
+        margin-right: 5px;
+      }
+
+      .card-footer{
+        display: flex;
+        justify-content: space-around;
+
+        .icon-button{
+          cursor: pointer;
+        }
+      }
+    }
+    }
+
 }

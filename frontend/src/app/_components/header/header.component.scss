@@ -6,14 +6,14 @@
   height: 8vh;
 
   background-color: var(--void);
-  border-bottom: 2px solid var(--fuchsia);
+  border-bottom: 2px solid var(--jewel);
 
   font-weight: bold;
 
   .logo{
     font-family: rajdhani, sans-serif;
     font-size: 2.5rem;
-    color: var(--fuchsia);
+    color: var(--jewel);
   }
 
   .options{
@@ -23,7 +23,7 @@
     a{
       padding: 1rem;
       &:hover{
-        color: var(--fuchsia);
+        color: var(--jewel);
       }
     }
 

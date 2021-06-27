@@ -8,46 +8,18 @@
       "year": 2018
     },
     {
-      "owner": "Natasha Romanoff",
-      "name": "Civic",
-      "brand": "Honda",
-      "year": 2021,
+      "owner": "Igor Santana",
+      "name": "Fusion",
+      "brand": "Ford",
+      "year": 2017,
       "id": 2
     },
     {
-      "owner": "Peter Parker",
-      "name": "Tucson",
-      "brand": "Hyundai",
-      "year": 2015,
-      "id": 3
-    },
-    {
-      "owner": "Antony Stark",
+      "owner": "José Domingos",
       "name": "Hilux",
       "brand": "Toyota",
-      "year": 2050,
-      "id": 4
-    },
-    {
-      "owner": "Marcelo Santana",
-      "name": "Model S",
-      "brand": "Tesla",
       "year": 2021,
-      "id": 6
-    },
-    {
-      "owner": "Nayara Oliveira",
-      "brand": "Ford",
-      "name": "Fusion",
-      "year": 2019,
-      "id": 7
-    },
-    {
-      "owner": "Igor Santana",
-      "brand": "Fiat",
-      "name": "Grand Siena",
-      "year": 2017,
-      "id": 8
+      "id": 3
     }
   ],
   "clients": [
@@ -59,39 +31,53 @@
       "uf": "CE"
     },
     {
-      "id": 2,
       "name": "Igor Santana",
-      "age": 18,
+      "age": 21,
+      "city": "Fortaleza",
+      "uf": "CE",
+      "id": 2
+    },
+    {
+      "name": "Michel Santana",
+      "age": 32,
       "city": "São Paulo",
-      "uf": "SP"
+      "uf": "SP",
+      "id": 3
     },
     {
-      "id": 3,
-      "name": "Natasha Romanoff",
-      "age": 27,
+      "name": "Nayara Ledo",
+      "age": 19,
+      "city": "Cariús",
+      "uf": "CE",
+      "id": 4
+    },
+    {
+      "name": "Marta Santana",
+      "age": 40,
       "city": "Rio de Janeiro",
-      "uf": "RJ"
+      "uf": "RJ",
+      "id": 5
     },
     {
-      "id": 4,
+      "name": "José Domingos",
+      "age": 45,
+      "city": "Porto Alegre",
+      "uf": "RS",
+      "id": 6
+    },
+    {
       "name": "Peter Parker",
       "age": 15,
-      "city": "Porto Alegre",
-      "uf": "RS"
+      "city": "Florianópolis",
+      "uf": "SC",
+      "id": 7
     },
     {
-      "id": 5,
       "name": "Antony Stark",
-      "age": 55,
+      "age": 50,
       "city": "Natal",
-      "uf": "RN"
-    },
-    {
-      "id": 6,
-      "name": "Nayara Oliveira",
-      "age": 19,
-      "city": "Carius",
-      "uf": "CE"
+      "uf": "RN",
+      "id": 8
     }
   ],
   "brands": [
